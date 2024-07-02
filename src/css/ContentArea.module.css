@@ -1,0 +1,19 @@
+.content_area {
+  background-color: #1a1a1a;
+  width: 85%;
+  border-radius: 2em;
+  margin: 1em 1em 0 0;
+  padding-left: 12em;
+  padding-top: 8em;
+  font-family: "Inter";
+  color: #ffffff;
+}
+
+.hd1 {
+  font-size: 42px;
+}
+
+.hd2 {
+  color: rgb(204, 204, 204);
+  font-size: 42px;
+}
