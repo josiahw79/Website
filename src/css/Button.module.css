@@ -1,0 +1,15 @@
+.button{
+    background-color: #232323;
+    width: 100%;
+    padding: 1.2em;
+    border: none;
+    border-radius: .7em;
+    color: rgb(240,240, 240);
+    font-family: 'Inter';
+    font-weight: 600;
+    margin-bottom: .2em;
+}
+
+.button:hover {
+    background-color: white;
+}

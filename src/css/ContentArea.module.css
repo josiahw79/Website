@@ -16,4 +16,26 @@
 .hd2 {
   color: rgb(204, 204, 204);
   font-size: 42px;
+  margin-bottom: 1em;
+}
+
+.pin {
+  width: 1.5em;
+  margin-right: .3em;
+}
+
+.location{
+  display: flex;
+  align-items: center;
+  color: #fec620;
+  margin-bottom: 1.5em;
+}
+
+.bio{
+  word-wrap: break-word;
+  width: 80%;
+  line-height: 26px;
+  font-size: 16px;
+  color : rgb(204, 204, 204);
+  margin-bottom: 1.5em;
 }
