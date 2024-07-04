@@ -1,15 +1,21 @@
 import { useState } from "react";
-import Sidebar from "./components/Sidebar";
-import styles from "./css/App.module.css";
-import ContentArea from "./components/ContentArea"
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Layout from "./components/Layout"
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
     <>
-      <div className={styles.mainContainer}>
-        <Sidebar />
-        <ContentArea />
-      </div>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout/>}>
+            <Route path="/" element={<Homepage/>}/>
+  
+  
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

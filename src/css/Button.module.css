@@ -1,6 +1,5 @@
 .button{
-    background-color: #232323;
-    width: 100%;
+    background-color: #0a0a0a;
     padding: 1.2em;
     border: none;
     border-radius: .7em;
@@ -10,6 +9,10 @@
     margin-bottom: .2em;
 }
 
+.button_active {
+    background-color: rgb(35, 35, 35);
+}
+
 .button:hover {
-    background-color: white;
+    background-color: rgb(35, 35, 35);
 }
